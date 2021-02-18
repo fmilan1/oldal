@@ -1,0 +1,85 @@
+﻿body
+{
+    background-color: aquamarine;
+    text-transform: uppercase;
+}
+div
+{
+    margin: 0 auto;
+}
+
+.wrapper
+{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.wrapper ul
+{
+    list-style: none;
+}
+
+.wrapper ul li
+{
+    margin: -2px;
+    background-color: rgb(42, 42, 57);
+    width: 170px;
+    border: 4px solid rgb(6, 6, 33);
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    color: white;
+    position: relative;
+    font-family: Bahnschrift;
+}
+
+.wrapper ul li:hover
+{
+    background-color: crimson;
+    cursor: pointer;
+}
+
+.wrapper ul ul
+{
+    display: none;
+}
+
+.wrapper ul li:hover > ul
+{
+    display: block;
+}
+
+.wrapper ul ul
+{
+    position: absolute;
+    left: -25%;
+    top: 103%;
+}
+
+.wrapper ul ul ul
+{
+    position: absolute;
+    left: 78%;
+    top: -2.5%;
+}
+
+
+img
+{
+    position: relative;
+    margin: auto;
+    z-index: 1;
+    width: 10%;
+    color: white;
+}
+
+.more
+{
+    background-image: url("icon.svg");
+    background-repeat: no-repeat;
+    background-position: 98%;
+    background-size: 5%;
+}
