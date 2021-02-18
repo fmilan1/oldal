@@ -1,6 +1,6 @@
-﻿body
+body
 {
-    background-color: aquamarine;
+    background-color: #d9ff7f;
     text-transform: uppercase;
 }
 div
@@ -40,6 +40,7 @@ div
 {
     background-color: crimson;
     cursor: pointer;
+    
 }
 
 .wrapper ul ul
@@ -66,19 +67,9 @@ div
     top: -2.5%;
 }
 
-
-img
-{
-    position: relative;
-    margin: auto;
-    z-index: 1;
-    width: 10%;
-    color: white;
-}
-
 .more
 {
-    background-image: url("icon.svg");
+    background-image: url('icon.svg');
     background-repeat: no-repeat;
     background-position: 98%;
     background-size: 5%;
